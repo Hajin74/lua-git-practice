@@ -31,7 +31,7 @@ function scene:create( event )
    -- gameUI[0]은 약간 불투명한 검은 배경(앞의 자원찾기 게임에서도 했죠?)
    gameUI[0] = display.newRect(display.contentWidth/2, display.contentHeight/2, display.contentWidth, display.contentHeight)
    gameUI[0]:setFillColor(0)
-   gameUI[0].alpha = 0.3
+   gameUI[0].alpha = 0.5
 
    -- gameUI[1]은 호두 사진
    gameUI[1] = display.newImageRect("Fruit/walnut.png", 200, 200)
